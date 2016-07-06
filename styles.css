@@ -1,0 +1,9 @@
+body {
+  background-color: #FFFDC2;
+  font-family: helvetica; }
+  body div li {
+    list-style-type: none; }
+    body div li input {
+      margin-left: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */
