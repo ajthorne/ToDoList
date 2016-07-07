@@ -1,9 +1,43 @@
 body {
-  background-color: #FFFDC2;
   font-family: helvetica; }
-  body div li {
-    list-style-type: none; }
-    body div li input {
-      margin-left: 1rem; }
+  body div {
+    background-color: #FFFDC2;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 1rem;
+    position: relative;
+    border-radius: 5px; }
+    body div h2 {
+      text-align: center;
+      margin-top: 0.5rem;
+      border-bottom: 2px solid red; }
+    body div ul {
+      padding-left: 0;
+      line-height: 36px; }
+    body div li {
+      list-style-type: none;
+      border-bottom: 1px solid black;
+      padding-left: 1rem; }
+      body div li input {
+        position: absolute;
+        right: 5px;
+        line-height: normal;
+        border-radius: 5px;
+        margin-top: 0.2rem;
+        background-color: white;
+        box-shadow: none; }
+    body div .task {
+      background-color: #FFFEEB;
+      width: 45%;
+      border-radius: 5px;
+      margin-left: 25%;
+      margin-bottom: 1rem; }
+    body div .add {
+      font-size: 1.3rem;
+      font-weight: bold;
+      height: 26px;
+      background-color: transparent;
+      border: 0; }
 
 /*# sourceMappingURL=styles.css.map */
